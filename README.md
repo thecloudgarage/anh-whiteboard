@@ -8,9 +8,9 @@ The front end is built on top of html5 canvas. Different kinds of brushes: chalk
 npm install && node app
 ```
 ## Docker
-Docker image is available at thecloudgarage/anh-whiteboard
-app.js runs on 8080 by default
-docker run -dit -p 8080:8080 thecloudgarage/anh-whiteboard
+* Docker image is available at thecloudgarage/anh-whiteboard
+* app.js runs on 8080 by default
+* docker run -dit -p 8080:8080 thecloudgarage/anh-whiteboard
 
 ## Pivotal web services with docker image
-cf push <app-name> --docker-image thecloudgarage/anh-whiteboard
+* cf push <app-name> --docker-image thecloudgarage/anh-whiteboard
