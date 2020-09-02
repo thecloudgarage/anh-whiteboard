@@ -1,5 +1,5 @@
 var app = require('express')();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 var path = require('path');
 var bodyParser = require('body-parser'); // for reading POSTed form data into `req.body`
 
